@@ -13,5 +13,5 @@ def getItems():
     return quote
 
 
-    if __name__ == '__main__':
+if __name__ == '__main__':
     uvicorn.run(app, host="0.0.0.0", port=port, timeout_keep_alive=1200)
