@@ -1,6 +1,36 @@
 from fastapi import FastAPI
 import random
-quotes = ["[REDACTED] gw gatel","orang pintar has small [REDACTED]","jika [REDACTED] gatal maka garuklah","hmm...","I love your mom","call me D because mine itch","WOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","IAM ANJURNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"]
+quotes = [
+    {
+        "id":"1",
+        "en":"[REDACTED] gw gatel"
+    },
+    {
+        "id":"2",
+        "en":"orang pintar has small [REDACTED]"
+    },
+    {
+        "id":"3",
+        "en":"jika [REDACTED] gatal maka garuklah"
+    },
+    {
+        "id":"4",
+        "en":"hmm..."
+    },
+    {
+        "id":"5",
+        "en":"I love your mom"
+    },
+    {
+        "id":"6",
+        "en":"call me D because mine itch"
+    },
+    {
+        "id":"7",
+        "en":"WOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    }
+    
+    ]
 
 
 
